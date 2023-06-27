@@ -20,7 +20,7 @@ public class Main {
 
         // Gauss Seidel method
         MatrixGaussSeidel gaussSeidel = new MatrixGaussSeidel();
-        gaussSeidel.receiveMatrixFromFile("C:\\Users\\matve\\IdeaProjects\\test\\matrixSeidel.txt");
+        gaussSeidel.receiveMatrixFromFile("C:\\Users\\matve\\IdeaProjects\\matrix\\src\\test\\resources\\gaussSeidel_1.txt");
         System.out.println("Система:");
         gaussSeidel.print();
         System.out.println();

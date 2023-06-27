@@ -2,13 +2,12 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class MatrixGaussSeidel {
     private int dimension; // размерность
     private double[][] matrix; // коэффициенты
-    private double[] solution;
+    protected double[] solution;
     private int[] order;
     private double tolerance; // заданная точность, также является нулем при сравнении вещественных чисел
     private int maxIterations; // количество итераций для схождения
